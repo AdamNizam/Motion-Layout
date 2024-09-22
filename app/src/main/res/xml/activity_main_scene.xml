@@ -7,7 +7,16 @@
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
-        <KeyFrameSet></KeyFrameSet>
+        <KeyFrameSet>
+
+            <KeyPosition
+                motion:motionTarget="@+id/imageView"
+                motion:framePosition="50"
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0.475"
+                motion:percentY="-0.241" />
+
+        </KeyFrameSet>
     </Transition>
 
     <ConstraintSet android:id="@+id/start">
